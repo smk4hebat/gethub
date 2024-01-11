@@ -1,0 +1,109 @@
+#tugas
+
+#cara menggunakan markdown
+ Untuk membuat judul, gunakan tanda pagar (#). Jumlah tanda pagar menentukan tingkat judul, misalnya # Judul 1, ## Judul 2, dan seterusnya.
+
+> markdown
+ Copy code
+ # Judul 1
+ ## Judul 2
+ ### Judul 3
+ 2. Teks Format
+ Bold: Gunakan dua tanda bintang (**) sebelum dan setelah kata atau frase yang ingin dijadikan teks tebal.
+
+> markdown
+ Copy code
+ **Teks Tebal**
+ Italic: Gunakan satu tanda bintang (*) sebelum dan setelah kata atau frase yang ingin dijadikan teks miring.
+
+> markdown
+ Copy code
+ *Teks Miring*
+ 3. Daftar
+ Daftar Berurutan (Ordered List): Gunakan angka diikuti oleh titik dan spasi.
+
+> markdown
+ Copy code
+ 1. Item 1
+ 2. Item 2
+   1. Subitem 2.1
+   2. Subitem 2.2
+ Daftar Tak Berurutan (Unordered List): Gunakan tanda bintang (*), tanda minus (-), atau tanda plus (+) diikuti oleh spasi.
+
+> markdown
+ Copy code
+ * Item 1
+ * Item 2
+  - Subitem 2.1
+  - Subitem 2.2
+4. Link
+ Untuk membuat tautan, gunakan format [teks tautan](URL):
+
+> markdown
+ Copy code
+ [Google](https://www.google.com)
+ 5. Gambar
+ Untuk menyematkan gambar, gunakan format ![teks alternatif](URL gambar):
+
+> markdown
+ Copy code
+ ![Logo GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+ 6. Quote
+ Gunakan tanda kurung sudut (>) di awal baris untuk membuat kutipan.
+
+> markdown
+ Copy code
+ > Ini adalah sebuah kutipan.
+ 7. Kode
+ Inline Code: Gunakan tanda kutip satu (`) sebelum dan setelah kode.
+
+> markdown
+ Copy code
+ Ini adalah `kode inline`.
+ Blok Kode: Gunakan tiga tanda kutip (```) sebelum dan setelah blok kode. Juga, Anda dapat menentukan jenis bahasa setelah tiga tanda kutip pertama untuk penyorotan sintaksis.
+
+> markdown
+ Copy code
+```python
+ def hello_world():
+    print("Hello, World!")
+ Copy code
+ 8. Garis Horizontal
+ Untuk membuat garis horizontal, gunakan tiga tanda hubung (---), tiga tanda asterisk (***), atau tiga tanda underscore (___).
+
+> Contoh Lengkap:
+ markdown
+ Copy code
+ # Judul Utama
+
+ > ## Sub Judul
+
+ Teks *miring* dan **tebal**.
+
+ ### Daftar Berurutan
+
+ 1. Item 1
+ 2. Item 2
+   1. Subitem 2.1
+   2. Subitem 2.2
+
+ > ### Daftar Tak Berurutan
+
+ - Item 1
+ - Item 2
+  - Subitem 2.1
+  - Subitem 2.2
+
+ [Link ke Google](https://www.google.com)
+
+ ![Logo GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+ > Ini adalah kutipan.
+
+```python
+ def hello_world():
+    print("Hello, World!")
+ less
+ Copy code
+ 
+ Markdown memiliki banyak fitur lainnya. Panduan ini hanya mencakup dasar-dasa
